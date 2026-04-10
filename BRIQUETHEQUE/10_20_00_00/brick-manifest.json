@@ -1,0 +1,10 @@
+{
+  "uid": "10_20_00_00",
+  "label": "ORACLE_LOGIC",
+  "version": "1.0.0",
+  "segment": "STRUCTURE",
+  "family": "CONTROL",
+  "class": "LOGICAL",
+  "status": "ACTIVE",
+  "description": "Vérifie la cohérence du SOL.xml et des dépendances Maven."
+}

@@ -12,15 +12,34 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.4</version>
+        <version>3.3.4</version>
         <relativePath/>
     </parent>
 
     <properties>
         <java.version>21</java.version>
+        <cloud-dust.version>1.0.0</cloud-dust.version>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cloud.moondust</groupId>
+                <artifactId>cloud-dust-framework</artifactId>
+                <version>${cloud-dust.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <modules>
-        <module>BRIQUETHEQUE/B0_CORE</module>
+        <module>BRIQUETHEQUE/10_10_00_00</module>
+        <module>BRIQUETHEQUE/10_20_00_00</module>
+        <module>BRIQUETHEQUE/10_30_00_00</module>
+        <module>BRIQUETHEQUE/10_40_00_00</module>
     </modules>
 </project>

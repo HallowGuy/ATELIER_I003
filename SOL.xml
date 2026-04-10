@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sol>
+    <infrastructure>
+    <database>
+        <type>POSTGRESQL</type>
+        <host>localhost</host>
+        <port>5432</port>
+        <name>atelier_db</name>
+        <user>postgres</user> 
+        <password></password> 
+        <schema>public</schema>
+    </database>
+</infrastructure>
+    <registry>
+        <brick id="10_10_00_00" name="WORKSPACE_AUDITOR" path="BRIQUETHEQUE/10_10_00_00" status="PENDING" />
+        <brick id="10_20_00_00" name="ORACLE_LOGIC" path="BRIQUETHEQUE/10_20_00_00" status="PENDING" />
+        <brick id="10_30_00_00" name="FORGE" path="BRIQUETHEQUE/10_30_00_00" status="PENDING" />
+        <brick id="10_40_00_00" name="COMMAND_CENTER" path="BRIQUETHEQUE/10_40_00_00" status="ACTIVE" />
+    </registry>
+
+</sol>

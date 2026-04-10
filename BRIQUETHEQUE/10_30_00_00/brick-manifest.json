@@ -1,0 +1,10 @@
+{
+  "uid": "10_30_00_00",
+  "label": "FORGE_ENGINE",
+  "version": "1.0.0",
+  "segment": "STRUCTURE",
+  "family": "PRODUCTION",
+  "class": "GENERATOR",
+  "status": "ACTIVE",
+  "description": "Moule industriel pour l'impression de nouvelles briques."
+}

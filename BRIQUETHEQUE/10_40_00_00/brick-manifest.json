@@ -1,0 +1,10 @@
+{
+  "uid": "10_40_00_00",
+  "label": "COMMAND_CENTER",
+  "version": "1.0.0",
+  "segment": "STRUCTURE",
+  "family": "ORCHESTRATION",
+  "class": "CLI",
+  "status": "ACTIVE",
+  "description": "Interface de pilotage et dashboard de l'Atelier."
+}

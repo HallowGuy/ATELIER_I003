@@ -1,0 +1,10 @@
+{
+  "uid": "10_10_00_00",
+  "label": "AUDITOR_STRUCT",
+  "version": "1.0.0",
+  "segment": "STRUCTURE",
+  "family": "CONTROL",
+  "class": "PHYSICAL",
+  "status": "ACTIVE",
+  "description": "Vérifie l'existence et l'intégrité des fichiers sur le disque."
+}
